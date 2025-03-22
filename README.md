@@ -15,9 +15,8 @@ Movitated by the InsDet's `open-world nature`, we exploit diverse open data and 
 
 ![idow](assets/idow.png)
 
-## Usage
-
-## Preparation
+## Code
+The project is built on [detectron2](https://github.com/facebookresearch/detectron2), [SAM](https://github.com/facebookresearch/segment-anything), [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO), and [DINOv2](https://github.com/facebookresearch/dinov2).<br>
 
 
 ## Citation
