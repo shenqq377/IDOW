@@ -11,4 +11,6 @@
 <a href='https://huggingface.co/datasets/depth-anything/DA-2K'><img src='https://img.shields.io/badge/Benchmark-DA--2K-yellow' alt='Benchmark'></a> -->
 </div>
 
-Movitated by the InsDet's `open-world nature`, we exploit diverse `open` data and foundation models to solve **InsDet in the open world (IDOW)**. To better adapt FM for instance-level feature matching, we introduce `distractor sampling` to sample patches of random background images as universal negative data to all object instances, and `novel-view synthesis`generate more visual references not only training but for testing. Our IDOW outperforms prior works by >10 AP in both conventional and novel instance detection settings.
+Movitated by the InsDet's `open-world nature`, we exploit diverse open data and foundation models to solve **InsDet in the open world (IDOW)**. To better adapt FM for instance-level feature matching, we introduce `distractor sampling` to sample patches of random background images as universal negative data to all object instances, and `novel-view synthesis`generate more visual references not only training but for testing. Our IDOW outperforms prior works by >10 AP in both conventional and novel instance detection settings.
+
+![idow](assets/idow.png)
