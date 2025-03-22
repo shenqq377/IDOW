@@ -11,13 +11,14 @@
 <a href='https://huggingface.co/datasets/depth-anything/DA-2K'><img src='https://img.shields.io/badge/Benchmark-DA--2K-yellow' alt='Benchmark'></a> -->
 </div>
 
-Movitated by the InsDet's `open-world nature`, we exploit diverse open data and foundation models to solve **InsDet in the open world (IDOW)**. To better adapt FM for instance-level feature matching, we introduce `distractor sampling` to sample patches of random background images as universal negative data to all object instances, and `novel-view synthesis`generate more visual references not only training but for testing. Our IDOW outperforms prior works by >10 AP in both conventional and novel instance detection settings.
-
 ![idow](assets/idow.png)
+
+Movitated by the InsDet's `open-world nature`, we exploit diverse open data and foundation models to solve **InsDet in the open world (IDOW)**. To better adapt FM for instance-level feature matching, we introduce `distractor sampling` to sample patches of random background images as universal negative data to all object instances, and `novel-view synthesis`generate more visual references not only training but for testing. Our IDOW outperforms prior works by >10 AP in both conventional and novel instance detection settings.
 
 ## Code
 The project is built on [detectron2](https://github.com/facebookresearch/detectron2), [SAM](https://github.com/facebookresearch/segment-anything), [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO), and [DINOv2](https://github.com/facebookresearch/dinov2).<br>
 
+The Jupyter notebooks files demonstrate our IDOW on [HR-InsDet](https://github.com/insdet/instance-detection) dataset and [RoboTools](https://github.com/Jaraxxus-Me/VoxDet) dataset.
 
 ## Citation
 If you find our project useful, please consider citing:
