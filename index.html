@@ -206,17 +206,40 @@
               <!-- Your image here -->
               <img src="static/images/insdet_findings.jpg" alt="1" style="width: auto; height: auto; display: block; margin: 0 auto;"/> 
               <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
-                Existing InsDet methods leverage the open-world information in different aspects, such as (a) background image sampling 
-                (fromthe open world) to synthesize training data, (b) object image sampling (from the open world) to learn feature 
-                representations,and (c) foundation model utilization (pretrained in the open world) for proposal detection and 
+                Existing InsDet methods leverage the open-world information in different aspects: (a) <b>background image sampling</b> 
+                (from the open world) to synthesize training data, (b) <b>object image sampling</b> (from the open world) to learn feature 
+                representations,and (c) <b>foundation model utilization</b> (pretrained in the open world) for proposal detection and 
                 instance-level feature matching. 
-<!--                 (d) As FMs are not specifcally designed for instance-level feature matching required 
-                by InsDet, we propose to adapt them by leveraging rich datasampled from the open world. We gather data from multiple 
-                sources: (1) any available visual references of instances in the CID setting,(2) abundant multi-view object images 
-                sampled in the open world similar to (b), (3) synthetic data by training NeRF to generatenovel-view images based on the 
-                given instances, (4) distractors by running FMs (esp. SAM) on random open-world imagery to generate random object-like 
-                proposals. We use the data above to adapt FM through metric learning. The technical novelty of our work lies in(3) and (4), 
-                as well as the design choice of metric learning to adapt FMs for InsDet. -->
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section hero is-light2">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Solution</h2>          
+          <div class="content has-text-justified">
+
+            <div class="item">
+              <!-- Your image here -->
+              <img src="static/images/insdet_idow.jpg" alt="1" style="width: auto; height: auto; display: block; margin: 0 auto;"/> 
+              <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
+                As FMs are not specifcally designed for instance-level feature matching required by InsDet, we propose to adapt them
+                by leveraging rich datasampled from the open world. We gather data from multiple sources: 
+                <ol>
+                  <li>Any available visual references of instances in the CID setting;</li>
+                  <li>Abundant multi-view object images sampled in the open world similar to object image sampling;</li>
+                  <li>Synthetic data by training NeRF to generatenovel-view images based on the given instances;</li>
+                  <li>Distractors by running FMs (esp. SAM) on random open-world imagery to generate random object-like proposals.</li>
+                </ol>
+                We use the data above to adapt FM through metric learning. The technical novelty of our work lies in(3) and (4), 
+                as well as the design choice of metric learning to adapt FMs for InsDet.
               </p>
             </div>
           </div>
