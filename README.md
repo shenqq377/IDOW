@@ -14,3 +14,23 @@
 Movitated by the InsDet's `open-world nature`, we exploit diverse open data and foundation models to solve **InsDet in the open world (IDOW)**. To better adapt FM for instance-level feature matching, we introduce `distractor sampling` to sample patches of random background images as universal negative data to all object instances, and `novel-view synthesis`generate more visual references not only training but for testing. Our IDOW outperforms prior works by >10 AP in both conventional and novel instance detection settings.
 
 ![idow](assets/idow.png)
+
+## Usage
+
+## Preparation
+
+
+## Citation
+If you find our project useful, please consider citing:
+```bibtex
+@inproceedings{shen2025solving,
+  title={Solving Instance Detection from an Open-World Perspective},
+  author={Shen, Qianqian and Zhao, Yunhan and Kwon, Nahyun and Kim, Jeeeun and Li, Yanan and Kong, Shu},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2025}
+@inproceedings{shen2023high,
+        title={A high-resolution dataset for instance detection with multi-view object capture},
+        author={Shen, Qianqian and Zhao, Yunhan and Kwon, Nahyun and Kim, Jeeeun and Li, Yanan and Kong, Shu},
+        booktitle={NeurIPS Datasets & Benchmark Track},
+        year={2023}
+```
