@@ -250,13 +250,13 @@
   <!-- End Method Overview -->
 
   
-  <!-- Text-Image generation -->
+  <!-- Benchmark -->
   <section class="section hero is-light2">
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           <h2 class="title is-3">Results</h2>
-          <h2 class="title is-4">IDOW achieves state-of-the-art performance</h2>
+          <h2 class="title is-4">IDOW achieves state-of-the-art performances</h2>
           <div class="content has-text-justified">
             <div class="item">
               <!-- Your image here -->
@@ -269,16 +269,48 @@
                   <li>Second, adapting FMs by our IDOW further boosts the performance by 5-7 AP, e.g., IDOW<sub>SAM</sub> (48.75 AP) > OTS-FM<sub>SAM</sub> (41.61 AP). </li>
                   <li>IDOW and OTS-FM are applicable to different pretrained FMs and adopting stronger FMs achieves better performance, 
                       e.g., using GroundingDINO yields >8 AP than SAM in IDOW.</li>
+                </ul>
               </p>
             </div>
-
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- End Prompt Inversion -->
+  <!-- End Benchmark -->
 
+
+  <!-- Ablation -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+<!--           <h2 class="title is-3">Results</h2> -->
+          <h2 class="title is-4">IDOW in CID</h2>
+          <div class="content has-text-justified">
+            <div class="item">
+              <!-- Your image here -->
+              <img src="static/images/ablation.png" alt="1" style="width: 800px; height: auto; display: block; margin: 0 auto;"/> 
+              <p style="text-align: justify; font-size: 16px; line-height: 1.5; margin-top: 10px; color: #333;">
+                We use OTS-FMGroundingDINO as a baseline over which we incrementally add each strategy. 
+                <b>Train</b> means foundation model adaptation through fnetuning on the available data. 
+                <b>DA</b> denotes Data Augmentation with NeRF-generated novel-views; 
+                <b>DS</b> denotes Distractor Sampling. Results clearly demonstrate that all the four 
+                strategies help achieve better InsDet performance. 
+                <ul>
+                  <li>Finetuning FMs on the given visual references enhances detection performance, cf. Train (53.94 AP) > baseline (51.68 AP).</li>
+                  <li>Moreover, NeRF-based data augmentation improves the final detection performance, particularly when used in testing, 
+                  cf. Train+DA@Test (56.44 AP) > Train+DA@Train (54.48 AP) > baseline (51.68AP).</li>
+                  <li>Lastly, applying distractor sampling (DS) improves the ffnal performance further, cf. Train+DS (54.10 AP) > Train (53.94 AP).</li>
+                </ul>  
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Ablation -->
 
 
   
