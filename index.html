@@ -117,7 +117,7 @@
                 </span>
               </div>
             </div>
-            <!-- <h1><strong style="color: red; font-size: x-large;">CVPR 2024</strong></h1> -->
+            <h1><strong style="color: red; font-size: x-large;">CVPR 2025</strong></h1>
             <!-- <h2 class="subtitle has-text-centered">
               <b>tl;dr:</b> We adapt a pretrained Vision-Language Model and repurpose its<br>pretraining data to boost few-shot recognition performance</h2> -->
 
@@ -135,26 +135,20 @@
             <h2 class="title is-3">Overview</h2>
             <div class="content has-text-justified">
               <p style="text-align: justify;">
-                Movitated by the InsDet's open-world nature, we adapt foundation models to 
-                instance-level feature representation by metric learning to develop InsDet 
-                methods in the open world (IDOW). 
-                We identify novel challenges and opportunities: 
-                <ol>
-                  <li>We elaborate the open-world challenge of InsDet: the unknown testing data 
-                    distribution, and domain gaps between visual references and detected 
-                    proposals.</li>
-                  <li>We solve InsDet by exploiting diverse <i>open</i> data available in the 
-                    open world and FMs pretrained therein, with a metric learning loss and 
-                    hard example sampling.</li>
-                  <li>To better adapt FM for instance-level feature matching, we introduce 
-                    <i>distractor sampling</i> to sample patches of random background images as 
-                    universal negative data to all object instances, and <i>novel-view synthesis</i> 
-                    generate more visual references not only training but for testing.
-                  </li>
-                </ol>
+                Instance detection (InsDet) aims to localize specific object instances within 
+                a novel scene imagery based on given visual references. We elaborate the 
+                open-world challenge of InsDet: (1) the testing data distribution is unknown 
+                during training, and (2) there are domain gaps between visual references and 
+                detected proposals.
                 
-                Our IDOW outperforms prior works by >10 AP in both conventional and 
-                novel instance detection settings.
+                Movitated by the InsDet's <b>open-world nature</b>, we exploit diverse 
+                <b>open</b> data and foundation models to solve InsDet in the open world. 
+                To better adapt FM for instance-level feature matching, we introduce 
+                <i>distractor sampling</i> to sample patches of random background images as 
+                universal negative data to all object instances, and <i>novel-view synthesis</i> 
+                generate more visual references not only training but for testing. Our IDOW 
+                outperforms prior works by >10 AP in both conventional and novel instance 
+                detection settings.
               </p>         
             </div>
           </div>
@@ -204,7 +198,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <h2 class="title is-3">Instance Detection in the Open World (IDOW)</h2>          
+          <h2 class="title is-3">Our Findings</h2>          
           <div class="content has-text-justified">
 
             <div class="item">
