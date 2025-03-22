@@ -28,9 +28,4 @@ If you find our project useful, please consider citing:
   author={Shen, Qianqian and Zhao, Yunhan and Kwon, Nahyun and Kim, Jeeeun and Li, Yanan and Kong, Shu},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2025}
-@inproceedings{shen2023high,
-        title={A high-resolution dataset for instance detection with multi-view object capture},
-        author={Shen, Qianqian and Zhao, Yunhan and Kwon, Nahyun and Kim, Jeeeun and Li, Yanan and Kong, Shu},
-        booktitle={NeurIPS Datasets & Benchmark Track},
-        year={2023}
 ```
