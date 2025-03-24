@@ -6,9 +6,9 @@
 <sup>1</sup>Zhejiang University&emsp;<sup>2</sup>UC Irvine&emsp;<sup>3</sup>Texas A&M University&emsp;<sup>4</sup>Zhejiang Lab&emsp;<sup>5</sup>University of Macau&emsp;<sup>6</sup>Institute of Collaborative
 
 <a href="[https://arxiv.org/pdf/2503.00359](https://arxiv.org/pdf/2503.00359)"><img src='https://img.shields.io/badge/arXiv-IDOW-red' alt='Paper PDF'></a>
-<a href='https://shenqq377.github.io/IDOW/'><img src='https://img.shields.io/badge/Project_Page-IDOW-green' alt='Project Page'></a>
-<!-- <a href='https://huggingface.co/spaces/depth-anything/Depth-Anything-V2'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a>
-<a href='https://huggingface.co/datasets/depth-anything/DA-2K'><img src='https://img.shields.io/badge/Benchmark-DA--2K-yellow' alt='Benchmark'></a> -->
+<a href='https://shenqq377.github.io/IDOW/'><img src='https://img.shields.io/badge/Project-IDOW-green' alt='Project'></a>
+<a href="https://eval.ai/web/challenges/challenge-page/2478/overview/"><img src="https://img.shields.io/badge/Challenge-InsDet-blue" alt="Challenge"></a>
+<!-- <a href='https://huggingface.co/datasets/depth-anything/DA-2K'><img src='https://img.shields.io/badge/Benchmark-DA--2K-yellow' alt='Benchmark'></a> -->
 </div>
 
 ![idow](assets/idow.png)
