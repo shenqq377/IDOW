@@ -7,8 +7,8 @@
 
 <a href="https://arxiv.org/pdf/2503.00359"><img src='https://img.shields.io/badge/arXiv-IDOW-red' alt='Paper PDF'></a>
 <a href='https://shenqq377.github.io/IDOW/'><img src='https://img.shields.io/badge/Project-IDOW-green' alt='Project'></a>
-<a href="https://eval.ai/web/challenges/challenge-page/2478/overview/"><img src="https://img.shields.io/badge/Challenge-InsDet-blue" alt="Challenge"></a>
-<!-- <a href='https://huggingface.co/datasets/depth-anything/DA-2K'><img src='https://img.shields.io/badge/Benchmark-DA--2K-yellow' alt='Benchmark'></a> -->
+<a href="https://eval.ai/web/challenges/challenge-page/2478/overview/"><img src="https://img.shields.io/badge/Challenge-InsDet-yellow" alt="Challenge"></a>
+<!-- <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/832ea0ff01bd512aab28bf416db9489c-Paper-Datasets_and_Benchmarks.pdf"><img src='https://img.shields.io/badge/Paper_Page-InsDet-blue'></a> -->
 </div>
 
 ![idow](assets/idow.png)
